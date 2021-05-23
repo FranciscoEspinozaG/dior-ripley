@@ -1,0 +1,14 @@
+header{
+    background: #000;
+    color: #fff;
+    span,
+    a,
+    i{
+        color: #fff;
+        text-decoration: none;
+    }
+    img{
+        max-width: 100px;
+    }
+        @import 'menu.scss';
+}

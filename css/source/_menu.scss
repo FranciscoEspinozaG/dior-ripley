@@ -1,0 +1,24 @@
+.navbar{
+    .navbar-toggler{
+        outline: none;
+        &-icon{
+            background: url('/img/bars.svg') center center/cover no-repeat;
+        }
+        &-icon{
+            &.close{
+                background: url('/img/times.svg') center center/cover no-repeat;
+            }
+        }
+    }
+    .home{
+        background: url('/img/home.svg') center center/cover no-repeat;
+        height: 30px;
+        width: 30px;
+    }
+}
+
+#navbarSupportedContent{
+    .dropdown-menu{
+        background-color: transparent;
+    }
+}
