@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	 jQuery('#Id-carousel').owlCarousel({
+	 jQuery('#test').owlCarousel({
         autoPlay: 2000,
         loop:true,  
         dots: true,
@@ -8,6 +8,6 @@ $(document).ready(function(){
     });
 
     jQuery('.navbar-toggler').click(function(){
-        jQuery('.navbar-toggler-icon').toggleClass('.close')
+        jQuery('.navbar-toggler-icon').toggleClass('open')
     })
 });

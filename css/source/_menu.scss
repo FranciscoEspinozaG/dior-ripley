@@ -1,24 +1,66 @@
 .navbar{
+    text-transform: uppercase;
     .navbar-toggler{
         outline: none;
         &-icon{
+            transition: .3s ease all;
             background: url('/img/bars.svg') center center/cover no-repeat;
         }
-        &-icon{
-            &.close{
-                background: url('/img/times.svg') center center/cover no-repeat;
-            }
+        .open{
+            transform: rotate(90deg);
+            background: url('/img/times.svg') center center/cover no-repeat;
         }
     }
     .home{
         background: url('/img/home.svg') center center/cover no-repeat;
         height: 30px;
         width: 30px;
+        transition: .3s ease all;
+        &:hover{
+            transform: scale(1.1);
+        }
     }
-}
-
-#navbarSupportedContent{
-    .dropdown-menu{
-        background-color: transparent;
+    &-collapse{
+        .navbar-nav{
+            .dropdown{
+                &-menu{
+                    background: #000;
+                }
+                &-item{
+                    &:focus,
+                    &:hover{
+                        background: #000;
+                    }
+                }
+            }
+        }
+    }
+    @include MQ(L){
+        &-collapse{
+            width: 100%;
+            background: #fff;
+            a,
+            i,
+            span{
+                color: #000;
+            }
+            .navbar-nav{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                .dropdown{
+                    &-menu{
+                        background: #fff;
+                    }
+                    &-item{
+                        transition: .3s ease all;
+                        &:focus,
+                        &:hover{
+                            background: rgb(235, 235, 235);
+                        }
+                    }
+                }
+            }
+        }
     }
 }

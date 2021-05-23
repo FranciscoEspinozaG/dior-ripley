@@ -1,8 +1,7 @@
 #dior{
-    @import 'source/variabless';
+    @import 'source/variables';
+    @import 'source/media';
     @import 'source/header';
-    // @import 'source/menu';
-    @import 'source/body';
-    @import 'source/grillas';
     @import 'source/botones';
+    @import 'source/grillas';
 }
