@@ -32,6 +32,15 @@
                         background: #000;
                     }
                 }
+                &-toggle{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    &:after{
+                        content: '+';
+                        border: none;
+                    }
+                }
             }
         }
     }
