@@ -39,6 +39,16 @@
                     &:after{
                         content: '+';
                         border: none;
+                        transition: .3s ease all;
+                        transform-origin: 50%;
+                        font-size: 2rem;
+                    }
+                }
+                &.show{
+                    .dropdown-toggle{
+                        &:after{
+                            transform: rotate(45deg);
+                        }
                     }
                 }
             }
@@ -54,7 +64,9 @@
                 color: #000;
             }
             .navbar-nav{
+                max-width: 1200px;
                 width: 100%;
+                margin: auto;
                 display: flex;
                 justify-content: space-around;
                 .dropdown{
@@ -65,7 +77,12 @@
                         transition: .3s ease all;
                         &:focus,
                         &:hover{
-                            background: rgb(235, 235, 235);
+                            background: rgb(246, 246, 246);
+                        }
+                    }
+                    &-toggle{
+                        &:after{
+                            content: '';
                         }
                     }
                 }
