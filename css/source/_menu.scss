@@ -1,28 +1,37 @@
 .navbar{
     text-transform: uppercase;
+    padding: 20px 0;
     .navbar-toggler{
         outline: none;
         &-icon{
+            // width: 15px;
+            // height: 15px;
             transition: .3s ease all;
             background: url('/img/bars.svg') center center/cover no-repeat;
         }
         .open{
+            // width: 15px;
+            // height: 15px;
             transform: rotate(90deg);
             background: url('/img/times.svg') center center/cover no-repeat;
         }
     }
     .home{
         background: url('/img/home.svg') center center/cover no-repeat;
-        height: 30px;
-        width: 30px;
+        height: 40px;
+        width: 40px;
         transition: .3s ease all;
         &:hover{
             transform: scale(1.1);
         }
     }
     &-collapse{
+        border-top: 1px solid #fff;
+        margin: 20px 0;
         .navbar-nav{
             .dropdown{
+                border-bottom: 1px solid #fff;
+                padding: 20px 0;
                 &-menu{
                     background: #000;
                 }
@@ -41,13 +50,15 @@
                         border: none;
                         transition: .3s ease all;
                         transform-origin: 50%;
-                        font-size: 2rem;
+                        font-size: 1rem;
                     }
                 }
                 &.show{
                     .dropdown-toggle{
+                        text-decoration: underline;
                         &:after{
-                            transform: rotate(45deg);
+                            content: '-';
+                            text-decoration: inherit;
                         }
                     }
                 }
