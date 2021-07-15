@@ -18,7 +18,7 @@
 	<mini-site>
 		<div id="dior">
 			<header>
-				<nav class="navbar navbar-expand-lg d-flex flex-lg-column p-lg-0">
+				<nav class="navbar navbar-expand-lg d-flex flex-lg-column">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -90,8 +90,34 @@
 				</nav>
 			</header>
 			<section id="principal">
-				<img src="https://dummyimage.com/600x600/616161/ffffff" alt="" class="d-lg-none">
-				<img src="https://dummyimage.com/1080x700/616161/ffffff" alt="" class="d-none d-lg-block">
+				<div class="owl-header owl-carousel owl-theme">
+					<div class="item header">
+						<picture>
+							<source 
+							  srcset="/img/slide-principal-D.jpg" 
+							  media="(min-width: 1024px)">
+							<source 
+							  srcset="/img/slide-principal-M.jpg" 
+							  media="(min-width: 768px)">
+							<img 
+							  src="/img/slide-principal-D.jpg" 
+							  alt="REMEMBER TO PUT ALTERNATIVE TEXT HERE">
+						</picture>
+					</div>
+					<div class="item header">
+						<picture>
+							<source 
+							  srcset="https://dummyimage.com/1080x400/d4d4d4/000000" 
+							  media="(min-width: 1024px)">
+							<source 
+							  srcset="https://dummyimage.com/600x550/d4d4d4/000000" 
+							  media="(min-width: 768px)">
+							<img 
+							  src="https://dummyimage.com/1080x400/d4d4d4/000000" 
+							  alt="REMEMBER TO PUT ALTERNATIVE TEXT HERE">
+						</picture>
+					</div>
+				</div>
 			</section>
 
 			<section id="opciones" class="my-5 opciones">
@@ -104,14 +130,26 @@
 					</div>
 					<div class="item">
 						<a href="http://" target="_blank" rel="noopener noreferrer">
-							<img src="/img/skincare-banner.jpg" alt="">
+							<img src="https://dummyimage.com/300x400/d4d4d4/000000" alt="">
 							<p class="opciones-titulo">Fragancias Masculinas</p>
 						</a>
 					</div>
 					<div class="item">
 						<a href="http://" target="_blank" rel="noopener noreferrer">
-							<img src="/img/fragrance-banner.jpg" alt="">
+							<img src="https://dummyimage.com/300x400/d4d4d4/000000" alt="">
+							<p class="opciones-titulo">Maquillaje</p>
+						</a>
+					</div>
+					<div class="item">
+						<a href="http://" target="_blank" rel="noopener noreferrer">
+							<img src="https://dummyimage.com/300x400/d4d4d4/000000" alt="">
 							<p class="opciones-titulo">Tratamiento</p>
+						</a>
+					</div>
+					<div class="item">
+						<a href="http://" target="_blank" rel="noopener noreferrer">
+							<img src="https://dummyimage.com/300x400/d4d4d4/000000" alt="">
+							<p class="opciones-titulo">Dior Expertise</p>
 						</a>
 					</div>
 				</div>
@@ -141,8 +179,23 @@
 						<p class="producto-precio">$24.990</p>
 						<p class="producto-boton">Comprar</p>
 					</a>
+					<a href="#" class="producto">
+						<img src="/img/rouge-dior.jpg" alt="" class="producto-imagen"></img>
+						<p class="producto-nombre">Rouge Dior</p>
+						<p class="producto-descripcion">Rouge Dior Bálsamo Universal</p>
+						<p class="producto-precio">$24.990</p>
+						<p class="producto-boton">Comprar</p>
+					</a>
+					<a href="#" class="producto">
+						<img src="/img/rouge-dior.jpg" alt="" class="producto-imagen"></img>
+						<p class="producto-nombre">Rouge Dior</p>
+						<p class="producto-descripcion">Rouge Dior Bálsamo Universal</p>
+						<p class="producto-precio">$24.990</p>
+						<p class="producto-boton">Comprar</p>
+					</a>
 				</div>
 			</section>
+
 			<section id="mas-vendidos" class="py-5">
 				<h3 class="titulo-seccion">Más Vendidos</h3>
 				<div class="owl-productos slide-individual owl-carousel owl-theme">
@@ -173,6 +226,27 @@
 						<p class="producto-descripcion">Rouge Dior Bálsamo Universal</p>
 						<p class="producto-precio">$24.990</p>
 						<p class="producto-boton">Comprar</p>
+					</a>
+				</div>
+			</section>
+
+			<section id="section-cat" class="py-5 container">
+				<div class="owl-cat owl-doble owl-carousel owl-theme">
+					<a href="#section-cat" target="_blank" rel="noopener noreferrer" class="cat">
+						<img src="/img/dior-bg.jpg" alt="" class="cat-imagen">
+						<p class="cat-nombre">Rouge Dior Barra de Labios</p>
+					</a>
+					<a href="#section-cat" target="_blank" rel="noopener noreferrer" class="cat">
+						<img src="/img/dior-bg.jpg" alt="" class="cat-imagen">
+						<p class="cat-nombre">Rouge Dior Barra de Labios</p>
+					</a>
+					<a href="#section-cat" target="_blank" rel="noopener noreferrer" class="cat">
+						<img src="/img/dior-bg.jpg" alt="" class="cat-imagen">
+						<p class="cat-nombre">Rouge Dior Barra de Labios</p>
+					</a>
+					<a href="#section-cat" target="_blank" rel="noopener noreferrer" class="cat">
+						<img src="/img/dior-bg.jpg" alt="" class="cat-imagen">
+						<p class="cat-nombre">Rouge Dior Barra de Labios</p>
 					</a>
 				</div>
 			</section>

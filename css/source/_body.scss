@@ -1,8 +1,19 @@
+section{
+    max-width: 100%;
+    @include MQ(L){
+        max-width: 1400px;
+        margin: auto;
+    }
+}
+
 .titulo-seccion{
     text-transform: uppercase;
     font-weight: 500;
     text-align: center;
     font-size: 4rem;
+    @include MQ(L){
+        font-size: 2rem;
+    }
 }
 
 #principal{

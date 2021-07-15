@@ -80,15 +80,27 @@
         }
     }
     @include MQ(L){
+        padding: 20px 0 0;
+        &-brand{
+            img{
+                width: 150px;
+            }
+        }
         &-collapse{
             width: 100%;
             background: #fff;
+            font-size: 1rem;
+            font-weight: 500;
             a,
             i,
             span{
                 color: #000;
             }
             .navbar-nav{
+                .nav-item{
+                    padding: 10px;
+                    text-align: center;
+                }
                 max-width: 1200px;
                 width: 100%;
                 margin: auto;
