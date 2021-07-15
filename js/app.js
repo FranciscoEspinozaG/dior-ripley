@@ -30,7 +30,7 @@ $(document).ready(function () {
         items: 1,
         singleItem: true,
         loop:true,
-        margin: 0,
+        margin: 10,
         nav:false,
         pagination: false,
         autoplay: true,
