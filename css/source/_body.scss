@@ -25,6 +25,9 @@ section{
 // PÁGINA EXPERTISE
 
 &.expertise{
+    .owl-productos{
+        max-width: inherit;
+    }
     font-size: 2rem;
     .breadcrumbs{
         font-weight: 600;
@@ -80,6 +83,25 @@ section{
         .imagen-w100{
             img{
                 width: 100%;
+            }
+        }
+    }
+    @include MQ(L){
+        font-size: 1.4rem;
+        .entrada{
+            .textos{
+                padding: 20px 40px 0px;
+                .titulo{
+                    font-size: 2rem;
+                    margin: 30px auto auto;
+                }
+                .bajada{
+                    font-size: 1.3rem;
+                }
+                span,
+                .texto{
+                    font-size: 1.2rem;
+                }
             }
         }
     }
