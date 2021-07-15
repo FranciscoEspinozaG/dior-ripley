@@ -1,7 +1,7 @@
 .navbar{
     text-transform: uppercase;
     padding: 35px 0;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    // font-family: "Montserrat", Helvetica, Arial, sans-serif;
     .navbar-toggler{
         outline: none;
         margin-left: 20px;
@@ -68,8 +68,9 @@
                 &.show{
                     .dropdown-toggle{
                         text-decoration: underline;
+                        text-underline-offset: 10px;
                         &:after{
-                            content: '-';
+                            content: '';
                             text-underline-position: above;
                             font-size: 3rem;
                         }

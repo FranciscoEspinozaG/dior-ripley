@@ -1,8 +1,12 @@
+@import 'source/fonts';
 #dior{
+    font-family: 'Montserrat', sans-serif;
     @import 'source/variables';
-    @import 'source/fonts';
     @import 'source/media';
     @import 'source/header';
+    @import 'source/menu';
+    @import 'source/slides';
+    @import 'source/body';
     @import 'source/botones';
     @import 'source/grillas';
 }

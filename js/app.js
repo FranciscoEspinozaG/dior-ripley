@@ -1,13 +1,24 @@
-$(document).ready(function(){
-	 jQuery('#test').owlCarousel({
-        autoPlay: 2000,
-        loop:true,  
-        dots: true,
-        items:4, 
-        nav: false
+$(document).ready(function () {
+
+    $('.slide-individual').owlCarousel({
+        items: 1,
+        singleItem: true,
+        loop:true,
+        margin: 0,
+        nav:true,
+        pagination: false,
+        autoplay: true
     });
 
-    jQuery('.navbar-toggler').click(function(){
-        jQuery('.navbar-toggler-icon').toggleClass('open')
+    $('.owl-stagePadding').owlCarousel({
+        items: 1,
+        singleItem: true,
+        loop: true,
+        margin: 100,
+        stagePadding: 200,
+        nav: true,
+        pagination: true,
+        autoplay: true
     })
+
 });
