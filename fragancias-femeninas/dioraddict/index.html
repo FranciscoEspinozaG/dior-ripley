@@ -10,13 +10,13 @@
 	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!-- <link rel="stylesheet" href="https://minisitios.ripley.cl/minisitios/estatico/cicatricure/assets3/css/bootstrap.min.css"> -->
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</mini-site-styles>
 </head>
 
 <body>
 	<mini-site>
-		<div id="dior">
+		<div id="dior" class="product-grill">
 			<header>
 				<nav class="navbar navbar-expand-lg d-flex flex-lg-column">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -89,125 +89,113 @@
 					</div>
 				</nav>
 			</header>
-			<section id="principal">
-				<div class="owl-header owl-carousel owl-theme">
-					<div class="item header">
-						<picture>
-							<source 
-							  srcset="/img/slide-principal-D.jpg" 
-							  media="(min-width: 1024px)">
-							<source 
-							  srcset="/img/slide-principal-M.jpg" 
-							  media="(min-width: 768px)">
-							<img 
-							  src="/img/slide-principal-D.jpg" 
-							  alt="REMEMBER TO PUT ALTERNATIVE TEXT HERE">
-						</picture>
-					</div>
-					<div class="item header">
-						<picture>
-							<source 
-							  srcset="https://dummyimage.com/1080x400/d4d4d4/000000" 
-							  media="(min-width: 1024px)">
-							<source 
-							  srcset="https://dummyimage.com/600x550/d4d4d4/000000" 
-							  media="(min-width: 768px)">
-							<img 
-							  src="https://dummyimage.com/1080x400/d4d4d4/000000" 
-							  alt="REMEMBER TO PUT ALTERNATIVE TEXT HERE">
-						</picture>
-					</div>
-				</div>
-			</section>
 
-			<section id="opciones" class="my-5 opciones">
-				<div class="owl-stagePadding opciones-owl owl-carousel owl-theme">
-					<div class="item">
-						<a href="/fragancias-femeninas" rel="noopener noreferrer">
-							<img src="/img/miss-dior-slide.jpg" alt="">
-							<p class="opciones-titulo">Fragancias Femeninas</p>
-						</a>
-					</div>
-					<div class="item">
-						<a href="/fragancias-masculinas" rel="noopener noreferrer">
-							<img src="https://dummyimage.com/300x400/d4d4d4/000000" alt="">
-							<p class="opciones-titulo">Fragancias Masculinas</p>
-						</a>
-					</div>
-					<div class="item">
-						<a href="/maquillaje" rel="noopener noreferrer">
-							<img src="https://dummyimage.com/300x400/d4d4d4/000000" alt="">
-							<p class="opciones-titulo">Maquillaje</p>
-						</a>
-					</div>
-					<div class="item">
-						<a href="/tratamiento" rel="noopener noreferrer">
-							<img src="https://dummyimage.com/300x400/d4d4d4/000000" alt="">
-							<p class="opciones-titulo">Tratamiento</p>
-						</a>
-					</div>
-					<div class="item">
-						<a href="/expertise" rel="noopener noreferrer">
-							<img src="https://dummyimage.com/300x400/d4d4d4/000000" alt="">
-							<p class="opciones-titulo">Dior Expertise</p>
-						</a>
-					</div>
-				</div>
-			</section>
-
-			<section id="section-cat" class="py-5 container">
-				<div class="owl-cat owl-doble owl-carousel owl-theme">
-					<a href="#section-cat" target="_blank" rel="noopener noreferrer" class="cat">
-						<img src="/img/dior-bg.jpg" alt="" class="cat-imagen">
-						<p class="cat-nombre">Rouge Dior Barra de Labios</p>
-					</a>
-					<a href="#section-cat" target="_blank" rel="noopener noreferrer" class="cat">
-						<img src="https://dummyimage.com/400x240/d4d4d4/000000" alt="" class="cat-imagen">
-						<p class="cat-nombre">Rouge Dior Barra de Labios</p>
-					</a>
-					<a href="#section-cat" target="_blank" rel="noopener noreferrer" class="cat">
-						<img src="https://dummyimage.com/400x240/d4d4d4/000000" alt="" class="cat-imagen">
-						<p class="cat-nombre">Rouge Dior Barra de Labios</p>
-					</a>
-					<a href="#section-cat" target="_blank" rel="noopener noreferrer" class="cat">
-						<img src="https://dummyimage.com/400x240/d4d4d4/000000" alt="" class="cat-imagen">
-						<p class="cat-nombre">Rouge Dior Barra de Labios</p>
-					</a>
-				</div>
+			<section class="container pt-5 px-5 px-lg-0 breadcrumbs">
+				<a href="/" class="fas fa-home"></a> / <a href="/fragancias-femeninas/index.html" class="prev-pag">Fragancias Femeninas</a> / <span>Dior Addict</span>
 			</section>
 			
-			<section id="lanzamientos" class="py-5">
-				<h3 class="titulo-seccion">Lanzamientos</h3>
-				<div class="owl-productos slide-individual owl-carousel owl-theme">
-					<a href="#" class="producto">
+			<section id="lanzamientos" class="py-5 products">
+				<h3 class="titulo-seccion">Dior Addict</h3>
+				<div class="products-grill d-flex flex-wrap">
+					<a href="#" class="producto col-12 col-lg-3 my-5 my-lg-0">
 						<img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="" class="producto-imagen"></img>
 						<p class="producto-nombre">Dior</p>
 						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
 						<p class="producto-precio">$24.990</p>
 						<p class="producto-boton">Comprar</p>
 					</a>
-					<a href="#" class="producto">
+					<a href="#" class="producto col-12 col-lg-3 my-5 my-lg-0">
 						<img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="" class="producto-imagen"></img>
 						<p class="producto-nombre">Dior</p>
 						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
 						<p class="producto-precio">$24.990</p>
 						<p class="producto-boton">Comprar</p>
 					</a>
-					<a href="#" class="producto">
+					<a href="#" class="producto col-12 col-lg-3 my-5 my-lg-0">
 						<img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="" class="producto-imagen"></img>
 						<p class="producto-nombre">Dior</p>
 						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
 						<p class="producto-precio">$24.990</p>
 						<p class="producto-boton">Comprar</p>
 					</a>
-					<a href="#" class="producto">
+					<a href="#" class="producto col-12 col-lg-3 my-5 my-lg-0">
 						<img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="" class="producto-imagen"></img>
 						<p class="producto-nombre">Dior</p>
 						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
 						<p class="producto-precio">$24.990</p>
 						<p class="producto-boton">Comprar</p>
 					</a>
-					<a href="#" class="producto">
+					<a href="#" class="producto col-12 col-lg-3 my-5 my-lg-0">
+						<img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="" class="producto-imagen"></img>
+						<p class="producto-nombre">Dior</p>
+						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
+						<p class="producto-precio">$24.990</p>
+						<p class="producto-boton">Comprar</p>
+					</a>
+					<a href="#" class="producto col-12 col-lg-3 my-5 my-lg-0">
+						<img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="" class="producto-imagen"></img>
+						<p class="producto-nombre">Dior</p>
+						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
+						<p class="producto-precio">$24.990</p>
+						<p class="producto-boton">Comprar</p>
+					</a>
+					<a href="#" class="producto col-12 col-lg-3 my-5 my-lg-0">
+						<img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="" class="producto-imagen"></img>
+						<p class="producto-nombre">Dior</p>
+						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
+						<p class="producto-precio">$24.990</p>
+						<p class="producto-boton">Comprar</p>
+					</a>
+					<a href="#" class="producto col-12 col-lg-3 my-5 my-lg-0">
+						<img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="" class="producto-imagen"></img>
+						<p class="producto-nombre">Dior</p>
+						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
+						<p class="producto-precio">$24.990</p>
+						<p class="producto-boton">Comprar</p>
+					</a>
+					<a href="#" class="producto col-12 col-lg-3 my-5 my-lg-0">
+						<img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="" class="producto-imagen"></img>
+						<p class="producto-nombre">Dior</p>
+						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
+						<p class="producto-precio">$24.990</p>
+						<p class="producto-boton">Comprar</p>
+					</a>
+					<a href="#" class="producto col-12 col-lg-3 my-5 my-lg-0">
+						<img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="" class="producto-imagen"></img>
+						<p class="producto-nombre">Dior</p>
+						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
+						<p class="producto-precio">$24.990</p>
+						<p class="producto-boton">Comprar</p>
+					</a>
+					<a href="#" class="producto col-12 col-lg-3 my-5 my-lg-0">
+						<img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="" class="producto-imagen"></img>
+						<p class="producto-nombre">Dior</p>
+						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
+						<p class="producto-precio">$24.990</p>
+						<p class="producto-boton">Comprar</p>
+					</a>
+					<a href="#" class="producto col-12 col-lg-3 my-5 my-lg-0">
+						<img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="" class="producto-imagen"></img>
+						<p class="producto-nombre">Dior</p>
+						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
+						<p class="producto-precio">$24.990</p>
+						<p class="producto-boton">Comprar</p>
+					</a>
+					<a href="#" class="producto col-12 col-lg-3 my-5 my-lg-0">
+						<img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="" class="producto-imagen"></img>
+						<p class="producto-nombre">Dior</p>
+						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
+						<p class="producto-precio">$24.990</p>
+						<p class="producto-boton">Comprar</p>
+					</a>
+					<a href="#" class="producto col-12 col-lg-3 my-5 my-lg-0">
+						<img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="" class="producto-imagen"></img>
+						<p class="producto-nombre">Dior</p>
+						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
+						<p class="producto-precio">$24.990</p>
+						<p class="producto-boton">Comprar</p>
+					</a>
+					<a href="#" class="producto col-12 col-lg-3 my-5 my-lg-0">
 						<img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="" class="producto-imagen"></img>
 						<p class="producto-nombre">Dior</p>
 						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
@@ -216,41 +204,6 @@
 					</a>
 				</div>
 			</section>
-
-			<section id="mas-vendidos" class="py-5">
-				<h3 class="titulo-seccion">Más Vendidos</h3>
-				<div class="owl-productos slide-individual owl-carousel owl-theme">
-					<a href="#" class="producto">
-						<img src="/img/prestige.jpg" alt="" class="producto-imagen"></img>
-						<p class="producto-nombre">Rouge Dior</p>
-						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
-						<p class="producto-precio">$24.990</p>
-						<p class="producto-boton">Comprar</p>
-					</a>
-					<a href="#" class="producto">
-						<img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="" class="producto-imagen"></img>
-						<p class="producto-nombre">Rouge Dior</p>
-						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
-						<p class="producto-precio">$24.990</p>
-						<p class="producto-boton">Comprar</p>
-					</a>
-					<a href="#" class="producto">
-						<img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="" class="producto-imagen"></img>
-						<p class="producto-nombre">Rouge Dior</p>
-						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
-						<p class="producto-precio">$24.990</p>
-						<p class="producto-boton">Comprar</p>
-					</a>
-					<a href="#" class="producto">
-						<img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="" class="producto-imagen"></img>
-						<p class="producto-nombre">Rouge Dior</p>
-						<p class="producto-descripcion">Rouge dior bálsamo universalRouge dior bálsamo universal</p>
-						<p class="producto-precio">$24.990</p>
-						<p class="producto-boton">Comprar</p>
-					</a>
-				</div>
-			</section>
-
 
 		</div>
 		<!-- HTML -->
@@ -266,6 +219,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <!-- <script type="text/javascript" src="js/libs/owl_carousel_js.js"></script> -->
 <!-- <script src="https://minisitios.ripley.cl/minisitios/estatico/nars/assets/js/libs/owl_carousel_js.js"></script> -->
-<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="/js/app.js"></script>
 <script src="https://kit.fontawesome.com/0569ba4c96.js" crossorigin="anonymous"></script>
 </mini-site-scripts>

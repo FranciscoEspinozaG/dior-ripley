@@ -22,17 +22,72 @@ section{
     }
 }
 
+.products{
+    &-grill{
+        .producto{
+            color: #000;
+            text-align: center;
+            font-size: 2.5rem;
+            &-imagen{
+                margin: 40px 0;
+                width: 70%;
+            }
+            &-nombre{
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+            &-descripcion{
+                color: #7e7e7e;
+                font-size: 2rem;
+                width: 80%;
+                margin: 10px auto 20px;
+            }
+            &-boton{
+                background: #000;
+                color: #fff;
+                font-weight: 200;
+                width: 40%;
+                margin: auto;
+                border-radius: 33.333rem;
+                padding: 20px;
+                box-sizing: border-box;
+                text-transform: uppercase;
+            }
+        }
+    }
+    @include MQ(L){
+        .producto{
+            font-size: 1.2rem;
+            &-imagen{
+                width: 100%;
+            }
+            &-descripcion{
+                font-size: 1rem;
+                width: 90%;
+            }
+            &-boton{
+                width: 60%;
+            }
+        }
+    }
+}
+
 // PÁGINA EXPERTISE
 
-&.expertise{
+&.expertise,
+&.product-grill,
+&.main-cat{
     .owl-productos{
         max-width: inherit;
     }
     font-size: 2rem;
     .breadcrumbs{
-        font-weight: 600;
+        font-weight: 400;
         text-transform: uppercase;
         text-align: inherit;
+        span{
+            font-weight: 600;
+        }
         a{
             color: #000;
         }

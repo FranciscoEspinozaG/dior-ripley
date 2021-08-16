@@ -87,6 +87,7 @@
             }
         }
         &-collapse{
+            border-bottom: 1px solid #7e7e7e;
             width: 100%;
             background: #fff;
             font-size: 1rem;
@@ -100,6 +101,9 @@
                 .nav-item{
                     padding: 10px;
                     text-align: center;
+                    width: 250px;
+                    display: flex;
+                    justify-content: center;
                 }
                 max-width: 1200px;
                 width: 100%;
@@ -109,8 +113,15 @@
                 .dropdown{
                     &-menu{
                         background: #fff;
+                        font-size: 1rem;
+                        text-align: center;
+                        border: 1px solid #7e7e7e;
+                        border-radius: 0;
+                        min-width: 250px;
+                        margin: -10px auto auto -2%;
                     }
                     &-item{
+                        color: #5e5e5e;
                         transition: .3s ease all;
                         &:focus,
                         &:hover{
@@ -118,6 +129,8 @@
                         }
                     }
                     &-toggle{
+                        justify-content: center;
+                        width: 100%;
                         &:after{
                             content: '';
                         }
