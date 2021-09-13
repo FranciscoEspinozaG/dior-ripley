@@ -95,6 +95,13 @@ a:hover{
         }
     }
     &productos{
+        .owl-stage{
+            display: flex;
+            .owl-item{
+                display: flex;
+                justify-content: center;
+            }
+        }
         .producto{
             color: #000;
             text-align: center;
@@ -121,19 +128,18 @@ a:hover{
                 background: #000;
                 color: #fff;
                 font-weight: 200;
-                width: 40%;
+                width: 90%;
                 margin: auto;
                 border-radius: 33.333rem;
                 padding: 20px;
                 box-sizing: border-box;
                 text-transform: uppercase;
                 transition: .3s ease all;
+                margin: auto auto 0 auto;
                 &:hover{
-                    background: rgb(255, 255, 255);
+                    background: rgb(227, 227, 227);
                     color: #000;
                     font-weight: bold;
-                    border: 1px solid #000;
-                    box-sizing: border-box;
                 }
             }
         }
@@ -170,10 +176,10 @@ a:hover{
                     }
                 }
                 &-prev{
-                    left: -70px;
+                    left: -2%;
                 }
                 &-next{
-                    right: -70px;
+                    right: -2%;
                 }
             }
         }
