@@ -24,7 +24,7 @@ $(document).ready(function () {
                 items:1,
             }
         }
-    })
+    });
 
     $('.owl-productos').owlCarousel({
         items: 1,
@@ -53,7 +53,6 @@ $(document).ready(function () {
     });
 
     $('.owl-stagePadding').owlCarousel({
-        items: 1,
         margin: 15,
         singleItem: true,
         loop: false,
