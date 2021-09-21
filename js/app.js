@@ -1,4 +1,13 @@
 $(document).ready(function () {
+    $('.desplegable').click(function(){
+        var submenu = $(this).find('.subcategoria-contenedor');
+        if(submenu.hasClass('active')){
+            submenu.removeClass('active')
+        }else{
+            $('.subcategoria-contenedor').removeClass('active');
+            submenu.addClass('active')
+        }
+    });
 
     $('.owl-header').owlCarousel({
         items: 1,
