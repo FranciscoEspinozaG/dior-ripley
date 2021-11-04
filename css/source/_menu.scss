@@ -4,16 +4,16 @@
     box-sizing: border-box;
     display: flex;
     flex-flow: wrap;
-    font-size: 1.2rem;
+    font-size: 9px;
     .logo-menu{
         display: flex;
         justify-content: center;
         width: 100%;
-        padding: 20px;
+        padding: 10px 0 20px;
         box-sizing: border-box;
         a{
             .logo{
-                width: 15rem;
+                width: 100px;
             }
         }
     }
@@ -50,7 +50,7 @@
             transition: .3s ease all;
             &.active{
                 opacity: 1;
-                top: 200px;
+                top: 130px;
                 pointer-events: all;
             }
             &.primero{
