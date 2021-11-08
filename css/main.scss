@@ -1,4 +1,8 @@
 @import 'source/fonts';
+body{
+    margin: 0;
+    padding: 0;
+}
 #dior{
     font-family: 'Montserrat', sans-serif;
     @import 'source/variables';
