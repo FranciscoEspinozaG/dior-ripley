@@ -55,6 +55,8 @@ section{
 .products{
     padding: 0 0 30px 0;
     &-grill{
+        display: flex;
+        flex-flow: wrap;
         .producto{
             color: #000;
             text-align: center;
@@ -66,6 +68,7 @@ section{
             display: flex;
             flex-flow: column;
             justify-content: center;
+            text-decoration: none;
             &-imagen{
                 margin: 40px auto;
                 width: 100%;
@@ -81,7 +84,7 @@ section{
                 width: 90%;
                 margin: auto auto 0 auto;
                 border-radius: 33.333rem;
-                padding: 20px;
+                padding: 10px;
                 box-sizing: border-box;
                 text-transform: uppercase;
             }
@@ -141,10 +144,10 @@ section{
         text-align: center;
     }
     .entrada{
-        padding: 30px 0;
+        padding: 0 0 30px 0;
         &-banner{
             width: 100%;
-            height: 600px;
+            height: 300px;
             object-fit: cover;
             z-index: -2;
             position: relative;
@@ -157,24 +160,25 @@ section{
             
         }
         .textos{
-            padding: 20px 40px;
+            padding: 20px;
             box-sizing: border-box;
+            line-height: normal;
             .titulo{
                 font-weight: 500;
                 text-transform: uppercase;
-                font-size: 60px;
+                font-size: 30px;
             }
             .bajada{
                 font-weight: 500;
-                font-size: 50px;
+                font-size: 20px;
                 text-transform: uppercase;
             }
             span{
                 font-weight: 500;
-                font-size: 40px;
+                font-size: 18px;
             }
             .texto{
-                font-size: 40px;
+                font-size: 18px;
             }
         }
         .imagenes{
@@ -187,6 +191,7 @@ section{
             img{
                 object-fit: cover;
                 flex: 1 2 30%;
+                height: 150px;
             }
         }
         .imagen-w100{
@@ -210,6 +215,11 @@ section{
                 span,
                 .texto{
                     font-size: 20px;
+                }
+            }
+            .imagenes{
+                img{
+                    height: 600px;
                 }
             }
         }
