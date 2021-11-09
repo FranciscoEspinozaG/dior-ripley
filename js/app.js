@@ -71,12 +71,12 @@ $(document).ready(function () {
         resposiveClass: true,
         responsive:{
             0:{
-                items:1.5,
+                items:1,
                 margin: 100,
                 loop: true,
             },
             600:{
-                items:1.5,
+                items:1,
                 margin: 100,
                 loop: true,
             },
