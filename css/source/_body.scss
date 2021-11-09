@@ -40,9 +40,9 @@ section{
     text-transform: uppercase;
     font-weight: 500;
     text-align: center;
-    font-size: 4rem;
+    font-size: 35px;
     @include MQ(L){
-        font-size: 2rem;
+        font-size: 32px;
     }
 }
 
@@ -58,7 +58,8 @@ section{
         .producto{
             color: #000;
             text-align: center;
-            font-size: 2.5rem;
+            font-size: 12px;
+            line-height: 24px;
             width: 50%;
             padding: 10px;
             box-sizing: border-box;
@@ -72,12 +73,6 @@ section{
             &-nombre{
                 text-transform: uppercase;
                 font-weight: 600;
-            }
-            &-descripcion{
-                color: #7e7e7e;
-                font-size: 2rem;
-                width: 80%;
-                margin: 10px auto 20px;
             }
             &-boton{
                 background: #000;
@@ -94,7 +89,7 @@ section{
     }
     @include MQ(L){
         .producto{
-            font-size: 1.2rem;
+            font-size: 24px;
             width: 25%;
             display: flex;
             flex-flow: column;
@@ -103,10 +98,6 @@ section{
             box-sizing: border-box;
             &-imagen{
                 width: 100%;
-            }
-            &-descripcion{
-                font-size: 1rem;
-                width: 90%;
             }
             &-boton{
                 width: 90%;
@@ -128,7 +119,7 @@ section{
     .owl-productos{
         max-width: inherit;
     }
-    font-size: 2rem;
+    font-size: 20px;
     .breadcrumbs{
         font-weight: 400;
         text-transform: uppercase;
@@ -171,19 +162,19 @@ section{
             .titulo{
                 font-weight: 500;
                 text-transform: uppercase;
-                font-size: 4rem;
+                font-size: 60px;
             }
             .bajada{
                 font-weight: 500;
-                font-size: 2.4rem;
+                font-size: 50px;
                 text-transform: uppercase;
             }
             span{
                 font-weight: 500;
-                font-size: 2.4rem;
+                font-size: 40px;
             }
             .texto{
-                font-size: 2.3rem;
+                font-size: 40px;
             }
         }
         .imagenes{
@@ -205,20 +196,20 @@ section{
         }
     }
     @include MQ(L){
-        font-size: 1.4rem;
+        font-size: 20px;
         .entrada{
             .textos{
                 padding: 20px 40px;
                 .titulo{
-                    font-size: 2rem;
+                    font-size: 30px;
                     margin: 30px auto auto;
                 }
                 .bajada{
-                    font-size: 1.3rem;
+                    font-size: 24px;
                 }
                 span,
                 .texto{
-                    font-size: 1.2rem;
+                    font-size: 20px;
                 }
             }
         }

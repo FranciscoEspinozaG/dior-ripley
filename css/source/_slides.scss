@@ -8,7 +8,7 @@
     }
     &-nav{
         button{
-            font-size: 8rem;
+            font-size: 50px;
             line-height: 0;
             position: absolute;
             top: 35%;
@@ -28,9 +28,8 @@
         margin: 40px auto 0;
         button{
             span{
-                width: 20px;
-                height: 20px;
-                margin: 10px 20px;
+                width: 10px;
+                height: 10px;
                 background: #7e7e7e;
                 transition: .3s ease all;
             }
@@ -44,7 +43,7 @@
     @include MQ(L){
         &-nav{
             button{
-                font-size: 3rem;
+                font-size: 40px;
             }
         }
         &-prev{
@@ -84,7 +83,6 @@ a:hover{
                     text-decoration: none;
                     img{
                         width: 100%;
-                        height: 600px;
                         object-fit: cover;
                     }
                     .opciones-titulo{
@@ -93,7 +91,7 @@ a:hover{
                         text-transform: uppercase;
                         text-decoration: none;
                         color: #000;
-                        font-size: 2rem;
+                        font-size: 20px;
                         font-weight: 500;
                     }
                 }
@@ -114,7 +112,8 @@ a:hover{
         .producto{
             color: #000;
             text-align: center;
-            font-size: 2.5rem;
+            font-size: 24px;
+            line-height: 24px;
             display: flex;
             flex-flow: column;
             justify-content: center;
@@ -126,12 +125,6 @@ a:hover{
                 text-transform: uppercase;
                 font-weight: 600;
                 width: 80%;
-            }
-            &-descripcion{
-                color: #7e7e7e;
-                font-size: 2rem;
-                width: 80%;
-                margin: 10px auto 20px;
             }
             &-boton{
                 margin: auto auto 0 auto;
@@ -149,7 +142,7 @@ a:hover{
         .cat{
             color: #000;
             text-align: center;
-            font-size: 2rem;
+            font-size: 32px;
             text-transform: uppercase;
             font-weight: 500;
             &-nombre{
@@ -184,19 +177,15 @@ a:hover{
                         height: 260px;
                     }
                     .opciones-titulo{
-                        font-size: 1.3rem;
+                        font-size: 20px;
                     }
                 }
             }
         }
         &productos{
             .producto{
-                font-size: 1.2rem;
+                font-size: 20px;
                 &-nombre{
-                    width: 90%;
-                }
-                &-descripcion{
-                    font-size: 1rem;
                     width: 90%;
                 }
                 &-boton{
@@ -206,7 +195,7 @@ a:hover{
         }
         &cat{
             .cat{
-                font-size: 1.3rem;
+                font-size: 20px;
                 &-nombre{
                     margin: 10px 0 0;
                 }

@@ -4,7 +4,7 @@
     box-sizing: border-box;
     display: flex;
     flex-flow: wrap;
-    font-size: 18px;
+    font-size: 9px;
     .logo-menu{
         display: flex;
         justify-content: center;
@@ -70,6 +70,7 @@
         }
     }
     @include MQ(L){
+        font-size: 19px;
         .categoria{
             .subcategoria-contenedor{
                 &.active{
