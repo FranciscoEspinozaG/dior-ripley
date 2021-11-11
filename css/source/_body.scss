@@ -78,17 +78,6 @@ section{
                 text-transform: uppercase;
                 font-weight: 600;
             }
-            &-boton{
-                background: #000;
-                color: #fff;
-                font-weight: 200;
-                width: 90%;
-                margin: auto auto 0 auto;
-                border-radius: 33.333rem;
-                padding: 10px;
-                box-sizing: border-box;
-                text-transform: uppercase;
-            }
         }
     }
     @include MQ(L){
@@ -192,7 +181,10 @@ section{
             img{
                 object-fit: cover;
                 flex: 1 2 30%;
-                height: 150px;
+                height: 170px;
+                &.tercio-mobile{
+                    width: 33%;
+                }
             }
         }
         .imagen-w100{
@@ -204,6 +196,9 @@ section{
     @include MQ(L){
         font-size: 20px;
         .entrada{
+            &-banner{
+                height: 400px;
+            }
             .textos{
                 padding: 20px 40px;
                 .titulo{
